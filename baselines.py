@@ -270,8 +270,8 @@ def create_perf_histogram(avgd_perfs_by_question, fname, measure_name, opath='./
 def run():
     for test_set in ['data/BF_CTU.csv', 'data/BF_V.csv', 'data/BF_OU.csv']:
         print(test_set)
-        # compute_perf_distr_model(test_set)
-        compute_perf_knn_model(test_set)
+        compute_perf_distr_model(test_set)
+        # compute_perf_knn_model(test_set)
 
 
 if __name__ == '__main__':
